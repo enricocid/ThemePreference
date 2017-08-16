@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <!-- Theme options-->
+    <string-array name="theme_options">
+        <item>@string/default_theme</item>
+        <item>@string/red</item>
+        <item>@string/pink</item>
+        <item>@string/purple</item>
+        <item>@string/deepPurple</item>
+        <item>@string/indigo</item>
+        <item>@string/blue</item>
+        <item>@string/lightBlue</item>
+        <item>@string/cyan</item>
+        <item>@string/teal</item>
+        <item>@string/green</item>
+        <item>@string/amber</item>
+        <item>@string/orange</item>
+        <item>@string/deepOrange</item>
+        <item>@string/brown</item>
+        <item>@string/blueGrey</item>
+    </string-array>
+    <string-array name="pref_theme_list_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+    </string-array>
+</resources>

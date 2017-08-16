@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Theme options -->
+    <string name="dark_theme">Enable dark theme</string>
+    <string name="pref_theme_title">Accent color</string>
+    <string name="themesum">Change the Launcher accent color</string>
+    <string name="pref_theme_list" translatable="false">pref_theme_list</string>
+    <string name="default_theme">Default</string>
+
+    <string name="red">Red</string>
+    <string name="pink">Pink</string>
+    <string name="purple">Purple</string>
+    <string name="deepPurple">Deep purple</string>
+    <string name="indigo">Indigo</string>
+    <string name="blue">Blue</string>
+    <string name="lightBlue">Light blue</string>
+    <string name="cyan">Cyan</string>
+    <string name="teal">Teal</string>
+    <string name="green">Green</string>
+    <string name="amber">Amber</string>
+    <string name="orange">Orange</string>
+    <string name="deepOrange">Deep orange</string>
+    <string name="brown">Brown</string>
+    <string name="blueGrey">Blue grey</string>
+
+</resources>

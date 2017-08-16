@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <!-- Light Theme -->
+    <style name="BaseAppTheme" parent="@style/Theme.AppCompat.Light.NoActionBar"></style>
+
+    <style name="Base.Theme" parent="BaseAppTheme">
+        <item name="colorAccent">@color/accent</item>
+        <item name="colorPrimaryDark">?attr/colorAccent</item>
+    </style>
+
+    <!-- Theme colors -->
+    <style name="Base.Theme.Red" parent="BaseAppTheme">
+        <item name="colorPrimaryDark">?attr/colorAccent</item>
+        <item name="colorAccent">@color/material_red_400</item>
+    </style>
+
+    <style name="Base.Theme.Pink" parent="BaseAppTheme">
+        <item name="colorPrimaryDark">?attr/colorAccent</item>
+        <item name="colorAccent">@color/material_pink_400</item>
+    </style>
+
+    <style name="Base.Theme.Purple" parent="BaseAppTheme">
+        <item name="colorPrimaryDark">?attr/colorAccent</item>
+        <item name="colorAccent">@color/material_purple_400</item>
+    </style>
+
+    <style name="Base.Theme.DeepPurple" parent="BaseAppTheme">
+        <item name="colorPrimaryDark">?attr/colorAccent</item>
+        <item name="colorAccent">@color/material_deepPurple_400</item>
+    </style>
+
+    <style name="Base.Theme.Indigo" parent="BaseAppTheme">
+        <item name="colorPrimaryDark">?attr/colorAccent</item>
+        <item name="colorAccent">@color/material_indigo_400</item>
+    </style>
+
+    <style name="Base.Theme.Blue" parent="BaseAppTheme">
+        <item name="colorPrimaryDark">?attr/colorAccent</item>
+        <item name="colorAccent">@color/material_blue_400</item>
+    </style>
+
+    <style name="Base.Theme.LightBlue" parent="BaseAppTheme">
+        <item name="colorPrimaryDark">?attr/colorAccent</item>
+        <item name="colorAccent">@color/material_lightBlue_400</item>
+    </style>
+
+    <style name="Base.Theme.Cyan" parent="BaseAppTheme">
+        <item name="colorPrimaryDark">?attr/colorAccent</item>
+        <item name="colorAccent">@color/material_cyan_400</item>
+    </style>
+
+    <style name="Base.Theme.Teal" parent="BaseAppTheme">
+        <item name="colorPrimaryDark">?attr/colorAccent</item>
+        <item name="colorAccent">@color/material_teal_400</item>
+    </style>
+
+    <style name="Base.Theme.Green" parent="BaseAppTheme">
+        <item name="colorPrimaryDark">?attr/colorAccent</item>
+        <item name="colorAccent">@color/material_green_400</item>
+    </style>
+
+    <style name="Base.Theme.Amber" parent="BaseAppTheme">
+        <item name="colorPrimaryDark">?attr/colorAccent</item>
+        <item name="colorAccent">@color/material_amber_400</item>
+    </style>
+
+    <style name="Base.Theme.Orange" parent="BaseAppTheme">
+        <item name="colorPrimaryDark">?attr/colorAccent</item>
+        <item name="colorAccent">@color/material_orange_400</item>
+    </style>
+
+    <style name="Base.Theme.DeepOrange" parent="BaseAppTheme">
+        <item name="colorPrimaryDark">?attr/colorAccent</item>
+        <item name="colorAccent">@color/material_deepOrange_400</item>
+    </style>
+
+    <style name="Base.Theme.Brown" parent="BaseAppTheme">
+        <item name="colorPrimaryDark">?attr/colorAccent</item>
+        <item name="colorAccent">@color/material_brown_400</item>
+    </style>
+
+    <style name="Base.Theme.BlueGrey" parent="BaseAppTheme">
+        <item name="colorPrimaryDark">?attr/colorAccent</item>
+        <item name="colorAccent">@color/material_blueGrey_400</item>
+    </style>
+
+    <!-- Dark Theme -->
+    <style name="BaseAppThemeDark" parent="@style/Theme.AppCompat.NoActionBar"></style>
+
+    <style name="Base.Theme.Dark" parent="BaseAppThemeDark">
+        <item name="colorAccent">@color/accent</item>
+        <item name="colorPrimaryDark">?attr/colorAccent</item>
+    </style>
+
+    <!-- Theme colors -->
+    <style name="Base.Theme.Red.Dark" parent="BaseAppThemeDark">
+        <item name="colorPrimaryDark">?attr/colorAccent</item>
+        <item name="colorAccent">@color/material_red_400</item>
+    </style>
+
+    <style name="Base.Theme.Pink.Dark" parent="BaseAppThemeDark">
+        <item name="colorPrimaryDark">?attr/colorAccent</item>
+        <item name="colorAccent">@color/material_pink_400</item>
+    </style>
+
+    <style name="Base.Theme.Purple.Dark" parent="BaseAppThemeDark">
+        <item name="colorPrimaryDark">?attr/colorAccent</item>
+        <item name="colorAccent">@color/material_purple_400</item>
+    </style>
+
+    <style name="Base.Theme.DeepPurple.Dark" parent="BaseAppThemeDark">
+        <item name="colorPrimaryDark">?attr/colorAccent</item>
+        <item name="colorAccent">@color/material_deepPurple_400</item>
+    </style>
+
+    <style name="Base.Theme.Indigo.Dark" parent="BaseAppThemeDark">
+        <item name="colorPrimaryDark">?attr/colorAccent</item>
+        <item name="colorAccent">@color/material_indigo_400</item>
+    </style>
+
+    <style name="Base.Theme.Blue.Dark" parent="BaseAppThemeDark">
+        <item name="colorPrimaryDark">?attr/colorAccent</item>
+        <item name="colorAccent">@color/material_blue_400</item>
+    </style>
+
+    <style name="Base.Theme.LightBlue.Dark" parent="BaseAppThemeDark">
+        <item name="colorPrimaryDark">?attr/colorAccent</item>
+        <item name="colorAccent">@color/material_lightBlue_400</item>
+    </style>
+
+    <style name="Base.Theme.Cyan.Dark" parent="BaseAppThemeDark">
+        <item name="colorPrimaryDark">?attr/colorAccent</item>
+        <item name="colorAccent">@color/material_cyan_400</item>
+    </style>
+
+    <style name="Base.Theme.Teal.Dark" parent="BaseAppThemeDark">
+        <item name="colorPrimaryDark">?attr/colorAccent</item>
+        <item name="colorAccent">@color/material_teal_400</item>
+    </style>
+
+    <style name="Base.Theme.Green.Dark" parent="BaseAppThemeDark">
+        <item name="colorPrimaryDark">?attr/colorAccent</item>
+        <item name="colorAccent">@color/material_green_400</item>
+    </style>
+
+    <style name="Base.Theme.Amber.Dark" parent="BaseAppThemeDark">
+        <item name="colorPrimaryDark">?attr/colorAccent</item>
+        <item name="colorAccent">@color/material_amber_400</item>
+    </style>
+
+    <style name="Base.Theme.Orange.Dark" parent="BaseAppThemeDark">
+        <item name="colorPrimaryDark">?attr/colorAccent</item>
+        <item name="colorAccent">@color/material_orange_400</item>
+    </style>
+
+    <style name="Base.Theme.DeepOrange.Dark" parent="BaseAppThemeDark">
+        <item name="colorPrimaryDark">?attr/colorAccent</item>
+        <item name="colorAccent">@color/material_deepOrange_400</item>
+    </style>
+
+    <style name="Base.Theme.Brown.Dark" parent="BaseAppThemeDark">
+        <item name="colorPrimaryDark">?attr/colorAccent</item>
+        <item name="colorAccent">@color/material_brown_400</item>
+    </style>
+
+    <style name="Base.Theme.BlueGrey.Dark" parent="BaseAppThemeDark">
+        <item name="colorPrimaryDark">?attr/colorAccent</item>
+        <item name="colorAccent">@color/material_blueGrey_400</item>
+    </style>
+</resources>
