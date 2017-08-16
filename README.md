@@ -8,10 +8,16 @@ You can download the example APK from this repo here: https://github.com/enricoc
 
 ###Add the preference to your /res/xml/preferences.xml
 
-``` java
-<SwitchPreference android:defaultValue="false" android:key="pref_lightOrDark" android:title="@string/dark_theme"/>
+``` xml
+<SwitchPreference android:defaultValue="false" 
+android:key="pref_lightOrDark" 
+android:title="@string/dark_theme"/>
 
-<com.enrico.themepreference.ThemePreference android:defaultValue="0" android:key="pref_chooseAccent" android:persistent="true" android:summary="?attr/colorAccent" android:title="@string/pref_theme_title"/>
+<com.enrico.themepreference.ThemePreference android:defaultValue="0" 
+android:key="pref_chooseAccent" 
+android:persistent="true" 
+android:summary="?attr/colorAccent" 
+android:title="@string/pref_theme_title"/>
 ```
 
 
