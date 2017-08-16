@@ -13,7 +13,8 @@ You can download the example APK from this repo here: https://github.com/enricoc
 android:key="pref_lightOrDark" 
 android:title="@string/dark_theme"/>
 
-<com.enrico.themepreference.ThemePreference android:defaultValue="0" 
+<com.enrico.themepreference.ThemePreference 
+android:defaultValue="0" 
 android:key="pref_chooseAccent" 
 android:persistent="true" 
 android:summary="?attr/colorAccent" 
