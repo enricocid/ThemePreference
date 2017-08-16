@@ -6,7 +6,7 @@ Custom preference to apply themes
 You can download the example APK from this repo here: https://github.com/enricocid/ThemePreference/raw/master/project/app/app-release.apk
 
 
-###Add the preference to your /res/xml/preferences.xml
+### Add the preference to your /res/xml/preferences.xml
 
 ``` xml
 <SwitchPreference android:defaultValue="false" 
@@ -22,14 +22,14 @@ android:title="@string/pref_theme_title"/>
 ```
 
 
-###In Your activity
+### In Your activity
 
 ``` java
 ContextThemeWrapper contextThemeWrapper = new ContextThemeWrapper(getBaseContext(), this.getTheme());
 ```
 
 
-###And use the util to apply the theme:
+### And use the util to apply the theme:
 
 ``` java
 ThemeUtils.applyTheme(contextThemeWrapper, this);
