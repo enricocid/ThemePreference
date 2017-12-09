@@ -117,7 +117,6 @@ public class ThemePreference extends Preference {
         
         preference.setIcon(createRoundedBitmapDrawable(bmp, color, context.getResources()));
 
-        }
     }
 
     private static RoundedBitmapDrawable createRoundedBitmapDrawable(Bitmap bitmap, int color, Resources mResources) {
